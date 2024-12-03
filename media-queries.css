@@ -99,13 +99,13 @@
     flex-direction: column;
     gap: 10px;
     /* width: 100%; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
   .flex-second {
     flex-direction: column;
     gap: 10px;
     /* width: 100%; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
 
   .header-nav {
@@ -133,5 +133,38 @@
   }
   .social-media {
     height: 13%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .flex-first {
+    width: 100%;
+  }
+  .flex-second {
+    width: 100%;
+  }
+  .header-nav a {
+    display: none;
+  }
+  .flex {
+    display: block;
+  }
+  .contact-me {
+    height: 33%;
+  }
+  .contact-me-text {
+    padding-top: 50px;
+  }
+  .skills-container {
+    width: 97.5%;
+  }
+  .social-media {
+    width: 97.5%;
+    height: 100px;
+    align-content: center;
+    text-align: center;
+  }
+  .social-media a {
+    padding-left: 20px;
   }
 }
