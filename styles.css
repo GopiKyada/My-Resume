@@ -25,6 +25,7 @@
   align-items: flex-start;
   flex-wrap: wrap;
   width: 68%;
+  /* height: auto; */
   /* border: 1px solid black; */
   padding: 0 0 0 1vw;
   /* gap: 1vw; */
@@ -63,6 +64,14 @@ body {
   font-weight: bold;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
 .header-nav a {
   font-size: 2rem;
   text-decoration: none;
@@ -75,7 +84,7 @@ body {
 }
 
 .header-nav a:hover {
-  color: white;
+  font-weight: bold;
 }
 
 .about-profession-text {
@@ -89,6 +98,7 @@ body {
 }
 
 .about-profession-text p {
+  font-variant-caps: small-caps;
   align-self: flex-end;
   font-size: 3rem;
   /* border: 2px red solid; */
@@ -99,18 +109,19 @@ body {
   height: 60%;
   border-radius: 20px;
   margin: 0 0 0 1vw;
+  overflow: hidden;
 }
 
 .myimage-container img {
   width: 100%;
   height: 100%;
   object-fit: fill;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   /* border: 2px red solid; */
 }
 
 .skills-container {
-  /* width: 97%; */
+  width: 95%;
   text-align: center;
   margin: 0 1vw 0 0.5vw;
   border-radius: 20px;
@@ -198,9 +209,9 @@ body {
   text-decoration: none;
   color: #1b1b1b;
   font-size: 1.2rem;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .social-media a:hover {
-  font-size: 1.4rem;
+  font-weight: bold;
 }
