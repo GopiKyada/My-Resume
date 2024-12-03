@@ -1,0 +1,137 @@
+@media screen and (max-width: 1200px) {
+  .flex-first {
+    /* border: 1px solid black; */
+    flex-wrap: wrap;
+    width: 60%;
+  }
+
+  .flex-second {
+    width: 40%;
+    /* border: 1px solid red; */
+  }
+
+  .navbar {
+    width: 98%;
+  }
+
+  .about-profession-text {
+    width: 99%;
+    height: 33%;
+  }
+
+  .myimage-container {
+    height: 33%;
+    margin: 1vw 0 0 0;
+  }
+
+  .about-me {
+    width: 59%;
+    height: 33%;
+    margin: 1vw 0 0 1vw;
+  }
+
+  .about-me p {
+    font-size: 1rem;
+  }
+
+  .contact-me {
+    height: 28%;
+    margin: 1vw 0 1vw 0;
+  }
+
+  .skills-container {
+    width: 96%;
+  }
+
+  .list {
+    font-size: 1rem;
+  }
+
+  .social-media {
+    width: 96%;
+    height: 16%;
+    margin: 1vw 1vw 0 0.5vw;
+    flex-direction: column;
+    gap: 10px;
+    justify-items: flex-start;
+    padding: 10px;
+  }
+
+  .social-media a {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .about-profession-text p {
+    font-size: 2rem;
+  }
+
+  .nav-name p {
+    font-size: 1.5rem;
+  }
+
+  .header-nav a {
+    font-size: 1.5rem;
+  }
+
+  .social-media {
+    height: 20%;
+    margin-bottom: 2vw;
+  }
+
+  .about-me p {
+    font-size: 0.8rem;
+  }
+
+  .contact-me {
+    width: 60%;
+    padding: 20px;
+  }
+
+  .contact-me a {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .flex-first {
+    flex-direction: column;
+    gap: 10px;
+    /* width: 100%; */
+    border: 1px solid black;
+  }
+  .flex-second {
+    flex-direction: column;
+    gap: 10px;
+    /* width: 100%; */
+    border: 1px solid red;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .about-profession-text {
+    height: 19%;
+    width: 98%;
+  }
+
+  .myimage-container {
+    width: 98%;
+    height: 25%;
+  }
+
+  .about-me {
+    width: 98%;
+    height: auto;
+    margin: 0 0 0 0;
+  }
+  .contact-me {
+    width: 98%;
+    height: 15%;
+  }
+  .social-media {
+    height: 13%;
+  }
+}
